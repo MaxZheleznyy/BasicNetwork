@@ -13,6 +13,11 @@
 		9F38D0A927CE014F001FBD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F38D0A727CE014F001FBD6B /* Main.storyboard */; };
 		9F38D0AB27CE0150001FBD6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38D0AA27CE0150001FBD6B /* Assets.xcassets */; };
 		9F38D0AE27CE0150001FBD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F38D0AC27CE0150001FBD6B /* LaunchScreen.storyboard */; };
+		9F38D0B627CE01F5001FBD6B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D0B527CE01F5001FBD6B /* Endpoint.swift */; };
+		9F38D0B827CE06D2001FBD6B /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D0B727CE06D2001FBD6B /* GithubEndpoint.swift */; };
+		9F38D0BA27CE08F6001FBD6B /* GithubUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D0B927CE08F6001FBD6B /* GithubUserModel.swift */; };
+		9F38D0BC27CE0B14001FBD6B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D0BB27CE0B14001FBD6B /* NetworkService.swift */; };
+		9F38D0BE27CE1445001FBD6B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D0BD27CE1445001FBD6B /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9F38D0AA27CE0150001FBD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F38D0AD27CE0150001FBD6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F38D0AF27CE0150001FBD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F38D0B527CE01F5001FBD6B /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		9F38D0B727CE06D2001FBD6B /* GithubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubEndpoint.swift; sourceTree = "<group>"; };
+		9F38D0B927CE08F6001FBD6B /* GithubUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserModel.swift; sourceTree = "<group>"; };
+		9F38D0BB27CE0B14001FBD6B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9F38D0BD27CE1445001FBD6B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				9F38D0A127CE014F001FBD6B /* AppDelegate.swift */,
 				9F38D0A327CE014F001FBD6B /* SceneDelegate.swift */,
 				9F38D0A527CE014F001FBD6B /* ViewController.swift */,
+				9F38D0B527CE01F5001FBD6B /* Endpoint.swift */,
+				9F38D0B727CE06D2001FBD6B /* GithubEndpoint.swift */,
+				9F38D0B927CE08F6001FBD6B /* GithubUserModel.swift */,
+				9F38D0BB27CE0B14001FBD6B /* NetworkService.swift */,
+				9F38D0BD27CE1445001FBD6B /* Utilities.swift */,
 				9F38D0A727CE014F001FBD6B /* Main.storyboard */,
 				9F38D0AA27CE0150001FBD6B /* Assets.xcassets */,
 				9F38D0AC27CE0150001FBD6B /* LaunchScreen.storyboard */,
@@ -140,6 +155,11 @@
 			files = (
 				9F38D0A627CE014F001FBD6B /* ViewController.swift in Sources */,
 				9F38D0A227CE014F001FBD6B /* AppDelegate.swift in Sources */,
+				9F38D0BC27CE0B14001FBD6B /* NetworkService.swift in Sources */,
+				9F38D0BA27CE08F6001FBD6B /* GithubUserModel.swift in Sources */,
+				9F38D0B627CE01F5001FBD6B /* Endpoint.swift in Sources */,
+				9F38D0B827CE06D2001FBD6B /* GithubEndpoint.swift in Sources */,
+				9F38D0BE27CE1445001FBD6B /* Utilities.swift in Sources */,
 				9F38D0A427CE014F001FBD6B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
