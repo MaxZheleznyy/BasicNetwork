@@ -51,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				9F38D0A027CE014F001FBD6B /* BasicNetwork */,
+				9F8956D327CFCCC300E4DF27 /* Delegate */,
+				9F8956D227CFCC9000E4DF27 /* Resources */,
 				9F38D09F27CE014F001FBD6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,20 +68,58 @@
 		9F38D0A027CE014F001FBD6B /* BasicNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				9F38D0A127CE014F001FBD6B /* AppDelegate.swift */,
-				9F38D0A327CE014F001FBD6B /* SceneDelegate.swift */,
-				9F38D0A527CE014F001FBD6B /* ViewController.swift */,
-				9F38D0B527CE01F5001FBD6B /* Endpoint.swift */,
-				9F38D0B727CE06D2001FBD6B /* GithubEndpoint.swift */,
-				9F38D0B927CE08F6001FBD6B /* GithubUserModel.swift */,
-				9F38D0BB27CE0B14001FBD6B /* NetworkService.swift */,
+				9F8956D627CFCD0200E4DF27 /* ViewController */,
+				9F8956D527CFCCF800E4DF27 /* Network */,
+				9F8956D427CFCCE900E4DF27 /* Model */,
+			);
+			path = BasicNetwork;
+			sourceTree = "<group>";
+		};
+		9F8956D227CFCC9000E4DF27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				9F38D0BD27CE1445001FBD6B /* Utilities.swift */,
 				9F38D0A727CE014F001FBD6B /* Main.storyboard */,
 				9F38D0AA27CE0150001FBD6B /* Assets.xcassets */,
 				9F38D0AC27CE0150001FBD6B /* LaunchScreen.storyboard */,
 				9F38D0AF27CE0150001FBD6B /* Info.plist */,
 			);
-			path = BasicNetwork;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F8956D327CFCCC300E4DF27 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9F38D0A127CE014F001FBD6B /* AppDelegate.swift */,
+				9F38D0A327CE014F001FBD6B /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		9F8956D427CFCCE900E4DF27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F38D0B927CE08F6001FBD6B /* GithubUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F8956D527CFCCF800E4DF27 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9F38D0BB27CE0B14001FBD6B /* NetworkService.swift */,
+				9F38D0B527CE01F5001FBD6B /* Endpoint.swift */,
+				9F38D0B727CE06D2001FBD6B /* GithubEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9F8956D627CFCD0200E4DF27 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F38D0A527CE014F001FBD6B /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
